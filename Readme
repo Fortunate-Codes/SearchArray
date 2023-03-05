@@ -1,0 +1,28 @@
+Explanation:
+
+We create an array of integers and initialize it with some 
+values.
+
+We create two variables `largest` and `smallest` and 
+initialize them with the first element of the array.
+
+We use a `for` loop to iterate through each element of the 
+array starting from the second element.
+
+Inside the loop, we check if the current element is greater than 
+the current value of `largest`. If it is, we update the value of 
+`largest` to be the current element.
+
+We then check if the current element is smaller than the 
+current value of `smallest`. If it is, we update the value of 
+`smallest` to be the current element.
+
+After the loop ends, we print the values of `largest` and 
+`smallest` using the `System.out.println()` method. We also 
+include some descriptive text to indicate which value is which.
+
+Note that we use the `Arrays` class from the `java.util` 
+package to sort the array and find the largest and smallest 
+values. However, this is not an efficient way to solve this 
+problem as it takes O(n log n) time. The above solution takes 
+O(n) time.
